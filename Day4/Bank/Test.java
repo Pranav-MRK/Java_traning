@@ -28,6 +28,7 @@ public class Test {
         Account obj4 = new Account(14,"mk",25000);
         Account obj5 = new Account(15,"Pk",25020);
 
+        // holding addresses obj1,2,3,4,5. hold
         allAcc[0]=obj1;
         allAcc[1]=obj2;
         allAcc[2]=obj3;
