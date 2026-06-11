@@ -28,7 +28,7 @@ public class Account {
     //     System.out.println("Name: "+name);
     //     System.out.println("Balance: "+balance);
     // }
-    public void creditA(int amount){
+    public synchronized void creditA(int amount){
         if (amount>balance) {
             System.out.println("Sorry you dont have sufficent balance...");
         }
@@ -51,7 +51,7 @@ public class Account {
         return name;
     }
     // methoud 
-    public void depositeA(int amount){
+    public synchronized void depositeA(int amount){
         System.out.println("Depositing amount: "+ amount);
         balance= balance+amount;
         System.out.println("Balance available : " + balance);

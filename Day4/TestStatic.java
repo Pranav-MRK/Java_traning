@@ -10,6 +10,7 @@ public class TestStatic {
         s1.display_name();
 
         System.out.println();
+        s2.display_Count();
 
 
     }
